@@ -117,28 +117,28 @@ function App() {
             Professional Air Breather
           </h2>
           <h3 className="text-white font-bold text-1xl text-center pt-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            Welcome to my portfolio!
             <br />
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Not entirely sure why you're here but have a look around.
             <br />
-            Ut enim ad minim veniam,
+            There is even an ADVANCED mode
           </h3>
           <div className="flex flex-row items-center">
             <a
               className="mx-3 my-3 px-4 py-4 bg-blue-600 text-white  font-bold tracking-wide rounded-full focus:outline-none"
-              href="https://youtube.com"
+              href="https://youtube.com/user4675"
             >
               <AiFillYoutube />
             </a>
             <a
               className="mx-3 my-3 px-4 py-4 bg-blue-600 text-white  font-bold tracking-wide rounded-full focus:outline-none"
-              href="https://twitter.com"
+              href="https://twitter.com/ttv_user4675"
             >
               <AiOutlineTwitter />
             </a>
             <a
               className="mx-3 my-3 px-4 py-4 bg-blue-600 text-white  font-bold tracking-wide rounded-full focus:outline-none"
-              href="https://discord.com"
+              href="https://discord.gg/freelance"
             >
               <FaDiscord />
             </a>
@@ -149,13 +149,13 @@ function App() {
             <div className="grid grid-cols-3 mx-auto gap-20">
               <a
                 className="w-72 h-72 rounded-lg relative "
-                href="https://google.com"
+                href="https://discord.gg/freelance"
               >
-                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://via.placeholder.com/300)]" />
+                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://user4675.me/uGE3m6.png)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
-                  <h4 className="text-white font-bold text-xl">Project 1</h4>
+                  <h4 className="text-white font-bold text-xl">Aspect Services</h4>
                   <p className="text-white text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    My very own service team! (Releasing soon)
                   </p>
                 </div>
               </a>
