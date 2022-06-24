@@ -153,8 +153,8 @@ function App() {
               >
                 <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://user4675.me/uGE3m6.png)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
-                  <h4 className="text-white font-bold text-xl">Aspect Services</h4>
-                  <p className="text-white text-base">
+                  <h4 className="text-red font-bold text-xl">Aspect Services</h4>
+                  <p className="text-red text-base">
                     My very own service team! (Releasing soon)
                   </p>
                 </div>
