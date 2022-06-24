@@ -153,8 +153,8 @@ function App() {
               >
                 <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://user4675.me/uGE3m6.png)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
-                  <h4 className="text-purple font-bold text-xl">Aspect Services</h4>
-                  <p className="text-purple text-base">
+                  <h4 className="text-white font-bold text-xl">Aspect Services</h4>
+                  <p className="text-white text-base">
                     My very own service team! (Releasing soon)
                   </p>
                 </div>
@@ -196,7 +196,7 @@ function App() {
                     Minecraft Setups
                   </h4>
                   <p className="text-white text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    I'll write something here later
                   </p>
                 </div>
               </a>
@@ -207,7 +207,7 @@ function App() {
                     System Administration
                   </h4>
                   <p className="text-white text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  I'll write something here later
                   </p>
                 </div>
               </a>
@@ -216,7 +216,7 @@ function App() {
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
                   <h4 className="text-white font-bold text-xl">Skill 3</h4>
                   <p className="text-white text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  I'll write something here later
                   </p>
                 </div>
               </a>
@@ -225,7 +225,7 @@ function App() {
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
                   <h4 className="text-white font-bold text-xl">Skill 4</h4>
                   <p className="text-white text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  I'll write something here later
                   </p>
                 </div>
               </a>
@@ -253,10 +253,10 @@ function App() {
                     <Star isOn={true} />
                     <Star isOn={true} />
                     <Star isOn={true} />
-                    <Star isOn={false} />
+                    <Star isOn={true} />
                   </ul>
                   <p className="text-white text-base">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    "Great guy"
                   </p>
                 </div>
               </div>
@@ -277,10 +277,10 @@ function App() {
                     <Star isOn={true} />
                     <Star isOn={true} />
                     <Star isOn={true} />
-                    <Star isOn={false} />
+                    <Star isOn={true} />
                   </ul>
                   <p className="text-white text-base">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    "How is he not president of the world yet!?"
                   </p>
                 </div>
               </div>
@@ -301,10 +301,10 @@ function App() {
                     <Star isOn={true} />
                     <Star isOn={true} />
                     <Star isOn={true} />
-                    <Star isOn={false} />
+                    <Star isOn={true} />
                   </ul>
                   <p className="text-white text-base">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    "Give him a nobel peace prize!"
                   </p>
                 </div>
               </div>
