@@ -127,18 +127,21 @@ function App() {
             <a
               className="mx-3 my-3 px-4 py-4 bg-blue-600 text-white  font-bold tracking-wide rounded-full focus:outline-none"
               href="https://youtube.com/user4675"
+              target="_blank"
             >
               <AiFillYoutube />
             </a>
             <a
               className="mx-3 my-3 px-4 py-4 bg-blue-600 text-white  font-bold tracking-wide rounded-full focus:outline-none"
               href="https://twitter.com/ttv_user4675"
+              target="_blank"
             >
               <AiOutlineTwitter />
             </a>
             <a
               className="mx-3 my-3 px-4 py-4 bg-blue-600 text-white  font-bold tracking-wide rounded-full focus:outline-none"
               href="https://discord.gg/freelance"
+              target="_blank"
             >
               <FaDiscord />
             </a>
@@ -150,6 +153,7 @@ function App() {
               <a
                 className="w-72 h-72 rounded-lg relative "
                 href="https://discord.gg/freelance"
+                target="_blank"
               >
                 <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://user4675.me/uGE3m6.png)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
