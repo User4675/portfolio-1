@@ -71,7 +71,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <div className="fixed bottom-0 w-full">
+      <div className="fixed z-50 bottom-0 w-full">
         <button
           className="my-3 mx-3 float-right px-3 py-3 bg-blue-600 text-white text-sm font-bold tracking-wide rounded-full focus:outline-none"
           onClick={() =>
@@ -111,12 +111,12 @@ function App() {
           </footer>
         </div>
       ) : (
-        <div className="bg-[#121212]  flex justify-center items-center flex-col">
+        <div className="bg-[#121212] flex justify-center items-center flex-col px-10">
           <h1 className="text-white font-bold text-6xl pb-3 pt-44">User4675</h1>
-          <h2 className="text-white font-bold text-2xl">
+          <h2 className="text-white font-bold text-xl lg:text-2xl">
             Professional Air Breather
           </h2>
-          <h3 className="text-white font-bold text-1xl text-center pt-3">
+          <h3 className="text-white font-bold text-center pt-3">
             Welcome to my portfolio!
             <br />
             Not entirely sure why you're here but have a look around.
@@ -149,7 +149,7 @@ function App() {
           {/* Projects section */}
           <h2 className="text-white text-2xl pt-20">Projects</h2>
           <div className="flex items-center justify-center pt-3 mx-auto ">
-            <div className="grid grid-cols-3 mx-auto gap-20">
+            <div className="lg:grid lg:grid-cols-3 flex flex-col mx-auto gap-20">
               <a
                 className="w-72 h-72 rounded-lg relative "
                 href="https://discord.gg/freelance"
@@ -157,7 +157,9 @@ function App() {
               >
                 <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://user4675.me/uGE3m6.png)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
-                  <h4 className="text-white font-bold text-xl">Aspect Services</h4>
+                  <h4 className="text-white font-bold text-xl">
+                    Aspect Services
+                  </h4>
                   <p className="text-white text-base">
                     My very own service team! (Releasing soon)
                   </p>
@@ -192,7 +194,7 @@ function App() {
           {/* Skills section */}
           <h2 className="text-white text-2xl pt-20">Skills</h2>
           <div className="flex items-center justify-center pt-3 mx-auto ">
-            <div className="grid grid-cols-4 mx-auto gap-16">
+            <div className="lg:grid lg:grid-cols-4 flex flex-col mx-auto gap-16">
               <a className="w-60 h-60 rounded-lg relative" href="/setups">
                 <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://via.placeholder.com/300)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
@@ -211,7 +213,7 @@ function App() {
                     System Administration
                   </h4>
                   <p className="text-white text-base">
-                  I'll write something here later
+                    I'll write something here later
                   </p>
                 </div>
               </a>
@@ -220,7 +222,7 @@ function App() {
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
                   <h4 className="text-white font-bold text-xl">Skill 3</h4>
                   <p className="text-white text-base">
-                  I'll write something here later
+                    I'll write something here later
                   </p>
                 </div>
               </a>
@@ -229,7 +231,7 @@ function App() {
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
                   <h4 className="text-white font-bold text-xl">Skill 4</h4>
                   <p className="text-white text-base">
-                  I'll write something here later
+                    I'll write something here later
                   </p>
                 </div>
               </a>
@@ -239,7 +241,7 @@ function App() {
           <h2 className="text-white text-2xl pt-20">Reviews</h2>
 
           <div className="flex flex-grow-0 flex-shrink-0 items-center justify-center pt-3 mx-auto">
-            <div className="grid grid-cols-3 grid-rows-1 mx-auto gap-20">
+            <div className="lg:grid lg:grid-cols-3 flex flex-col grid-rows-1 mx-auto gap-20">
               <div className="w-72 h-48 bg-[#181818] rounded-lg relative">
                 <div className="flex flex-row items-center mt-5">
                   <img
@@ -259,9 +261,7 @@ function App() {
                     <Star isOn={true} />
                     <Star isOn={true} />
                   </ul>
-                  <p className="text-white text-base">
-                    "Great guy"
-                  </p>
+                  <p className="text-white text-base">"Great guy"</p>
                 </div>
               </div>
               <div className="w-72 h-48 bg-[#181818] rounded-lg relative">
