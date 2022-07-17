@@ -5,6 +5,7 @@ import "@fontsource/poppins";
 import { AiFillYoutube, AiOutlineTwitter } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
 import Star from "./Star";
+import { motion } from "framer-motion";
 
 const commands = {
   aboutme: {
@@ -150,7 +151,8 @@ function App() {
           <h2 className="text-white text-2xl pt-20">Projects</h2>
           <div className="flex items-center justify-center pt-3 mx-auto ">
             <div className="lg:grid lg:grid-cols-3 flex flex-col mx-auto gap-20">
-              <a
+              <motion.a
+                whileInView={{ x: [-100, 0] }}
                 className="w-72 h-72 rounded-lg relative "
                 href="https://discord.gg/freelance"
                 target="_blank"
@@ -164,8 +166,9 @@ function App() {
                     My very own service team! (Releasing soon)
                   </p>
                 </div>
-              </a>
-              <a
+              </motion.a>
+              <motion.a
+                whileInView={{ x: [-100, 0] }}
                 className="w-72 h-72 rounded-lg relative"
                 href="https://google.com"
               >
@@ -176,8 +179,9 @@ function App() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   </p>
                 </div>
-              </a>
-              <a
+              </motion.a>
+              <motion.a
+                whileInView={{ x: [-100, 0] }}
                 className="w-72 h-72 relative rounded-lg"
                 href="https://google.com"
               >
@@ -188,14 +192,18 @@ function App() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   </p>
                 </div>
-              </a>
+              </motion.a>
             </div>
           </div>
           {/* Skills section */}
           <h2 className="text-white text-2xl pt-20">Skills</h2>
           <div className="flex items-center justify-center pt-3 mx-auto ">
             <div className="lg:grid lg:grid-cols-4 flex flex-col mx-auto gap-16">
-              <a className="w-60 h-60 rounded-lg relative" href="/setups">
+              <motion.a
+                whileInView={{ x: [-100, 0] }}
+                className="w-60 h-60 rounded-lg relative"
+                href="/setups"
+              >
                 <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://via.placeholder.com/300)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
                   <h4 className="text-white font-bold text-xl">
@@ -205,8 +213,12 @@ function App() {
                     I'll write something here later
                   </p>
                 </div>
-              </a>
-              <a className="w-60 h-60 rounded-lg relative" href="/sysadmin">
+              </motion.a>
+              <motion.a
+                whileInView={{ x: [-100, 0] }}
+                className="w-60 h-60 rounded-lg relative"
+                href="/sysadmin"
+              >
                 <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://via.placeholder.com/300)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
                   <h4 className="text-white font-bold text-xl">
@@ -216,8 +228,12 @@ function App() {
                     I'll write something here later
                   </p>
                 </div>
-              </a>
-              <a className="w-60 h-60 relative rounded-lg" href="/">
+              </motion.a>
+              <motion.a
+                whileInView={{ x: [-100, 0] }}
+                className="w-60 h-60 relative rounded-lg"
+                href="/"
+              >
                 <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://via.placeholder.com/300)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
                   <h4 className="text-white font-bold text-xl">Skill 3</h4>
@@ -225,8 +241,12 @@ function App() {
                     I'll write something here later
                   </p>
                 </div>
-              </a>
-              <a className="w-60 h-60 relative rounded-lg" href="/">
+              </motion.a>
+              <motion.a
+                whileInView={{ x: [-100, 0] }}
+                className="w-60 h-60 relative rounded-lg"
+                href="/"
+              >
                 <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://via.placeholder.com/300)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
                   <h4 className="text-white font-bold text-xl">Skill 4</h4>
@@ -234,7 +254,7 @@ function App() {
                     I'll write something here later
                   </p>
                 </div>
-              </a>
+              </motion.a>
             </div>
           </div>
           {/* Reviews section */}
@@ -242,7 +262,10 @@ function App() {
 
           <div className="flex flex-grow-0 flex-shrink-0 items-center justify-center pt-3 mx-auto">
             <div className="lg:grid lg:grid-cols-3 flex flex-col grid-rows-1 mx-auto gap-20">
-              <div className="w-72 h-48 bg-[#181818] rounded-lg relative">
+              <motion.div
+                whileInView={{ x: [-100, 0] }}
+                className="w-72 h-48 bg-[#181818] rounded-lg relative"
+              >
                 <div className="flex flex-row items-center mt-5">
                   <img
                     className="rounded-full ml-7 mr-4"
@@ -263,8 +286,11 @@ function App() {
                   </ul>
                   <p className="text-white text-base">"Great guy"</p>
                 </div>
-              </div>
-              <div className="w-72 h-48 bg-[#181818] rounded-lg relative">
+              </motion.div>
+              <motion.div
+                whileInView={{ x: [-100, 0] }}
+                className="w-72 h-48 bg-[#181818] rounded-lg relative"
+              >
                 <div className="flex flex-row items-center mt-5">
                   <img
                     className="rounded-full ml-7 mr-4"
@@ -287,8 +313,11 @@ function App() {
                     "How is he not president of the world yet!?"
                   </p>
                 </div>
-              </div>
-              <div className="w-72 h-48 bg-[#181818] rounded-lg relative">
+              </motion.div>
+              <motion.div
+                whileInView={{ x: [-100, 0] }}
+                className="w-72 h-48 bg-[#181818] rounded-lg relative"
+              >
                 <div className="flex flex-row items-center mt-5">
                   <img
                     className="rounded-full ml-7 mr-4"
@@ -311,7 +340,7 @@ function App() {
                     "Give him a nobel peace prize!"
                   </p>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
 
