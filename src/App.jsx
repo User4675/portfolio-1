@@ -170,13 +170,13 @@ function App() {
               <motion.a
                 whileInView={{ x: [-100, 0] }}
                 className="w-72 h-72 rounded-lg relative"
-                href="https://google.com"
+                href="https://discord.gg/devnics"
               >
-                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://via.placeholder.com/300)]" />
+                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://user4675.me/Ze80ud.png)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
-                  <h4 className="text-white font-bold text-xl">Project 2</h4>
+                  <h4 className="text-white font-bold text-xl">Devnics Services</h4>
                   <p className="text-white text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    I'm a freelancer, commission manager and department leader for Devnics Services!
                   </p>
                 </div>
               </motion.a>
