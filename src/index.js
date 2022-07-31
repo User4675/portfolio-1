@@ -12,6 +12,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 */
 import Sysadmin from "./Sysadmin";
 import Setups from "./Setups";
+import Writing from "./Writing";
+import VOs from "./VOs";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -27,6 +29,8 @@ root.render(
       />
       <Route path="sysadmin" element={<Sysadmin />} />
       <Route path="setups" element={<Setups />} />
+      <Route path="writing" element={<Writing />} />
+      <Route path="vos" element={<VOs />} />
     </Routes>
   </BrowserRouter>
 );
@@ -34,4 +38,4 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals(console.log);

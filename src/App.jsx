@@ -204,13 +204,13 @@ function App() {
                 className="w-60 h-60 rounded-lg relative"
                 href="/setups"
               >
-                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://via.placeholder.com/300)]" />
+                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://user4675.me/SPigCtWIujyv5zEFp4rV.png)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
                   <h4 className="text-white font-bold text-xl">
                     Minecraft Setups
                   </h4>
                   <p className="text-white text-base">
-                    I'll write something here later
+                    I've been creating Minecraft servers both for myself and for other clients for an incredible 5 years now. I've done everything from Minecraft Bedrock working with 3D custom mobs to Minecraft Java creating cut scenes!
                   </p>
                 </div>
               </motion.a>
@@ -219,39 +219,39 @@ function App() {
                 className="w-60 h-60 rounded-lg relative"
                 href="/sysadmin"
               >
-                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://via.placeholder.com/300)]" />
+                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://user4675.me/v9XDk8Kbx3OBF4isyezW.png)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
                   <h4 className="text-white font-bold text-xl">
                     System Administration
                   </h4>
                   <p className="text-white text-base">
-                    I'll write something here later
+                    I've done system administration work for hosting companies, private clients, service teams and have installed and configured over 100 pterodactyl panels during my time as a sys admin.
                   </p>
                 </div>
               </motion.a>
               <motion.a
                 whileInView={{ x: [-100, 0] }}
                 className="w-60 h-60 relative rounded-lg"
-                href="/"
+                href="/writing"
               >
-                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://via.placeholder.com/300)]" />
+                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://user4675.me/lTuOwG8FtCWsxbVcQU9f.png)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
-                  <h4 className="text-white font-bold text-xl">Skill 3</h4>
+                  <h4 className="text-white font-bold text-xl">Writing</h4>
                   <p className="text-white text-base">
-                    I'll write something here later
+                    I've done writing commissions for YouTubers both big and small, creative pieces and even lists of pops!
                   </p>
                 </div>
               </motion.a>
               <motion.a
                 whileInView={{ x: [-100, 0] }}
                 className="w-60 h-60 relative rounded-lg"
-                href="/"
+                href="/vos"
               >
-                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://via.placeholder.com/300)]" />
+                <div className="absolute inset-0 bg-cover bg-center z-0 rounded-lg bg-[url(https://user4675.me/hReSD0ZFKfTO2mPij3LH.png)]" />
                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center flex-col text-center">
-                  <h4 className="text-white font-bold text-xl">Skill 4</h4>
+                  <h4 className="text-white font-bold text-xl">Voice Overs</h4>
                   <p className="text-white text-base">
-                    I'll write something here later
+                  I've done voice overs for YouTubers, private clients and even advertisers!
                   </p>
                 </div>
               </motion.a>
@@ -273,7 +273,7 @@ function App() {
                     alt="Example User"
                   />
                   <h3 className="text-white font-bold text-lg">
-                    User4675#0001
+                  PixelNinja#9999
                   </h3>
                 </div>
                 <div className="flex justify-center items-center flex-col text-center mt-2">
@@ -284,7 +284,7 @@ function App() {
                     <Star isOn={true} />
                     <Star isOn={true} />
                   </ul>
-                  <p className="text-white text-base">"Great guy"</p>
+                  <p className="text-white text-base">"100000/10, USER IS THE BEST SYS ADMIN! I can't even type what all he has done for such a reasonable price. Uploaded the files, Checked for bugs & even fixed errors! He is just too good and I am not even exaggarating it."</p>
                 </div>
               </motion.div>
               <motion.div
@@ -298,7 +298,7 @@ function App() {
                     alt="Example User"
                   />
                   <h3 className="text-white font-bold text-lg">
-                    User4675#0001
+                  faabian#2501
                   </h3>
                 </div>
                 <div className="flex justify-center items-center flex-col text-center mt-2">
@@ -310,7 +310,7 @@ function App() {
                     <Star isOn={true} />
                   </ul>
                   <p className="text-white text-base">
-                    "How is he not president of the world yet!?"
+                    "With a tight deadline User was a professional and was able to create a compelling plot and story line with a cool twist to make an amazing story. 100% recommend!"
                   </p>
                 </div>
               </motion.div>
